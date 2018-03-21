@@ -13,8 +13,5 @@ cache:
   directories:
   - node_modules
 
-before_install:
-  - npm install
-
 script:
-  - npm test
+  - "$SCR/start.sh"
