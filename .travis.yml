@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+  - '7.10.0'
+
+branches:
+  only:
+  - /^master$/
+  - /^staging$/
+  - /^development$/
+
+cache:
+  directories:
+  - node_modules
+
+before_install:
+  - npm install
+
+script:
+  - npm test
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

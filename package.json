@@ -1,0 +1,24 @@
+{
+  "name": "continuous-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint lib && mocha test/**/*-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azilentech/continuous-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azilentech/continuous-integration/issues"
+  },
+  "homepage": "https://github.com/azilentech/continuous-integration#readme",
+  "dependencies": {
+    "eslint": "^4.19.0",
+    "mocha": "^5.0.4"
+  }
+}
