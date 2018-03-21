@@ -14,4 +14,4 @@ cache:
   - node_modules
 
 script:
-  - "deployment/script/start.sh"
+  - deployment/scripts/start.sh
