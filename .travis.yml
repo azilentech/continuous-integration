@@ -14,4 +14,4 @@ cache:
   - node_modules
 
 script:
-  - "$SCR/start.sh"
+  - "deployment/script/start.sh"
